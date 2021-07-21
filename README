@@ -1,9 +1,10 @@
 These Scripts are meant for beginners and beyond.
 These have simply prooved useful to us as IT Administrators both locally and in the cloud.
+Feel free to suggest Improvements. But i try to keep them as simple scripts for begginers.
 
 There are 2 Types of Scripts here and we will use prefixs to show this.
 [Auto] An Azure Automation Runbook Script.
-[Local] A Local Script
+[Local] A Local Script.
 
 Scripts can easily switched between following the below instructions and vice versa.
 
