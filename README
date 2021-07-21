@@ -1,6 +1,12 @@
 These Scripts are meant for beginners and beyond.
 These have simply prooved useful to us as IT Administrators both locally and in the cloud.
 
+There are 2 Types of Scripts here and we will use prefixs to show this.
+[Auto] An Azure Automation Runbook Script.
+[Local] A Local Script
+
+Scripts can easily switched between following the below instructions and vice versa.
+
 All Azure Automation Scripts [Auto] will be using a An azure automation account to run called "Powershell" this is simply a global admin account added to the azure automate account under "Credentials" Section.
 If wanting to run on your local machine simply replace this:
 
