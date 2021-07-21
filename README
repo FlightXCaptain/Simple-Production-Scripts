@@ -18,3 +18,5 @@ $AzureCredentials = Get-Credentials
 
 And it will prompt for admin credentials instead.
 
+Some of these Scripts can also be triggered and run from a button on your phone or a bookmark in your browser using Power Automate. Send me a message if curious about this.
+
