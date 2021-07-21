@@ -1,0 +1,14 @@
+These Scripts are meant for beginners and beyond.
+These have simply prooved useful to us as IT Administrators both locally and in the cloud.
+
+All Azure Automation Scripts [Auto] will be using a An azure automation account to run called "Powershell" this is simply a global admin account added to the azure automate account under "Credentials" Section.
+If wanting to run on your local machine simply replace this:
+
+$AzureCredential = Get-AutomationPSCredential -Name 'Powershell'
+
+to this:
+
+$AzureCredentials = Get-Credentials 
+
+And it will prompt for admin credentials instead.
+
