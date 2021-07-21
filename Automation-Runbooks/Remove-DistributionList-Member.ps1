@@ -6,6 +6,6 @@ Param(
 $AzureCredentials = Get-AutomationPSCredential -Name 'Powershell'
 Connect-ExchangeOnline -Credentials $AzureCredentials
 
-Add-DistributionGroupMember -Identity $DLEmail -member $User.PrimarySmtpAddress
+Remove-DistributionGroupMember -Identity $DLEmail -member $User.PrimarySmtpAddress
 
 Disconnect-ExchangeOnline
